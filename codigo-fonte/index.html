@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+</head>
+<body>
+  <div class="container" id="formulario">
+    <div class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12h3l3 9 4.5-18L17 12h4" />
+      </svg>
+    </div>
+
+    <h2>Calculadora de IMC</h2>
+    <p class="subtitle">Calcule seu Índice de Massa Corporal</p>
+
+    <label for="peso">Peso (kg)</label>
+    <input type="number" id="peso" placeholder="Ex: 70" />
+
+    <label for="altura">Altura (cm)</label>
+    <input type="number" id="altura" placeholder="Ex: 175" />
+
+    <button id="calcular">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="18" height="18">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+      </svg>
+      Calcular IMC
+    </button>
+  </div>
+
+ <script src="./JS/script.js"></script> 
+</body>
+</html>

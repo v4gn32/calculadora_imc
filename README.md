@@ -66,5 +66,5 @@ Defina a licença desejada (ex.: MIT) no arquivo LICENSE. Se não for especifica
 Contato
 -------
 Para dúvidas ou sugestões, abra uma issue no repositório.
-# calculdadora_imc
+# calculadora_imc
 Calculadora IMC em JavaScript
